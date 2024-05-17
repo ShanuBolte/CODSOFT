@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}      
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10%;
+    z-index: 10;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+}
+nav .logo{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.login-button{
+    background: #000;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    border-radius: 40px;
+    display: flex;
+    cursor: pointer;
+    margin-right: 80px;
+}
+.login-button img{
+    width: 25px;
+    margin-left: 3px;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#eefff9 0%, #d8d6f4 70%, #fdfdff 100%);
+    padding: 0 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+    font-size: 100px;
+    line-height: 110px;
+}
+.button-signup{
+    margin: 10px 0;
+}
+.header button{
+border: 0;
+outline: 0;
+display: inline-flex;
+align-items: center;
+font-size: 15px;
+margin-right: 20px;
+cursor: pointer;
+}
+.skill{
+    margin-left: 48vh;
+}
+.btn1{
+    background: #000;
+    color: whitesmoke;
+    padding: 10px 10px 10px 20px;
+    border-radius: 40px;
+
+}
+.btn1 img{
+width: 25px;
+}
+.btn2{
+    background: transparent;
+    text-decoration: underline;
+}
+.btn2 img{
+    width: 15px;
+    margin-left: 5px;
+}
+.smart-boy{
+    width: 70%;
+    max-width: 400px;
+    display: flex;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+}
+#about-us{
+    padding: 60px 0;
+
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about img{
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 35%;
+}
+.about-header{
+    flex-basis: 60%;
+}
+.about-header hr{
+    width: 200px;
+}
+.title{
+    font-size: 40px;
+
+}
+.slogan{
+    margin-top: 50px;
+    margin-right: 160px;
+    font-size: 20px;
+}
+.btn-about{
+    background: linear-gradient(270deg,#ff994f,#fa6d86 );
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    display: flex;
+    width: 180px;
+    height: 45px;
+    font-size: 17px;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.contact-us{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form-class{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contactname{
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 25px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+.form-class textarea{
+    height: 150px;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.form-class button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px ;
+    font-size: 17px;
+    gap: 10px;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86 );
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.form-class button img{
+    width: 15px;
+    margin-top: -3px;
+    margin-right: 15px;
+}
+.contact-img img{
+    width: 500px;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
